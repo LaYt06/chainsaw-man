@@ -25,7 +25,7 @@ body {
 }
 
 .manga__image {
-    max-width: 90%;
+    max-width: 28%;
     border: 2px solid #333;
     display: block;
     margin: 0 auto;
@@ -80,4 +80,10 @@ body {
     padding: 20px;
     margin: auto;
     font-size: 1.2em;
+}
+
+@media screen and (max-width: 800px) {
+    .manga__image {
+        max-width: 100%;
+    } 
 }
